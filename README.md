@@ -2,9 +2,9 @@
 Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de Estructuras de Datos durante lo largo del semestre.
 
 # Tabla de contenidos
-1. [Exercise 1 🧮](#exercise-1-)
+1. [Tarea 1 🧮](#Tarea-1-)
 
-# Exercise 1 🧮
+# Tarea 1 🧮
 - Algorithm to find the sum of the first N natural numbers.
 - Code in C
 - Demo: https://youtu.be/8mKBWEocZ48
