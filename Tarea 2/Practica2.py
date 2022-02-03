@@ -2,9 +2,9 @@
 # Declarar variables y arreglos
 debits_record = 0
 credits_record = 0
-totalDebitos = 0
+TotalDebitos = 0
 totalCreditos = 0
-BorrarRegistro = 0
+borrar = 0
 debitos = []
 creditos = []
 
@@ -25,6 +25,7 @@ def menu():
     print("--------------------------------------------------------------")
 
 def agregar_debitos():
+
     global debits_record
     global debitos
     print('Presione 0 para terminar de ingresar datos')
@@ -36,7 +37,7 @@ def agregar_debitos():
                 debitos += [numdebits]
             else:
                 if len(debitos) < 10:
-                    print('EL MINIMO DE DEBITOS ES 10, POR FAVOR CONTINUE AGREGANDO DEBITOS')
+                    print('Por favor ingrese más datos, debe ingresar por lo menos 10 débitos para poder continuar')
                 else:
                     break
         else:  
@@ -61,13 +62,13 @@ def agregar_creditos():
             print("Por favor ingrese una opción que se encuentre en el menú")
 
 def total_debitos():
-    global totalDebitos
+    global TotalDebitos
     global debitos
-    totalDebitos = 0
+    TotalDebitos = 0
     for i in range(0,len(debitos)):
-        totalDebitos += debitos[i]
-    print("El total de debitos es: ",totalDebitos)
-    return(totalDebitos)
+        TotalDebitos += debitos[i]
+    print("El total de debitos es: ",TotalDebitos)
+    return(TotalDebitos)
 
 def totalCreditosf():
     global creditos
@@ -102,7 +103,7 @@ def debitoGrande():
 def registro():
     print("Se ha agregado ", debits_record, ' veces debitos')
     print("Se ha agregado ", credits_record, ' veces creditos')
-    print("Se ha eliminado ", BorrarRegistro, ' veces creditos')
+    print("Se ha eliminado ", borrar, ' veces creditos')
 
 def prnt():
     global debitos
