@@ -2,14 +2,14 @@
 Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de Estructuras de Datos durante lo largo del semestre.
 
 # Tabla de contenidos
-1. [Tarea 1 🧮](#Tarea-1-)
-2. [Tarea 2 ](#Tarea-2-)
+1. [Tarea 1️⃣](#Tarea-1-)
+2. [Tarea 2️⃣](#Tarea-2-)
 
-# Tarea 1 🧮
+# Tarea 1️⃣
 - Algoritmo para encontrar la suma de lo primeros n números naturales
 - Se utilizó Python
 
-# Tarea 2 
+# Tarea 2️⃣
 - Programa creado que permite llevar el control de débitos y créditos varios, utilizando uno o más arrays unidimensionales
 - El programa permite realizar las siguientes acciones: 
   - Ingresar débitos (mínimo 10)
