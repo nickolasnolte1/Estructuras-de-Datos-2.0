@@ -6,6 +6,8 @@ totalDebitos = 0
 totalCreditos = 0
 registroEliminar = 0
 
+
+
 def addDebitos():
     global registroDebito
     global debitos
