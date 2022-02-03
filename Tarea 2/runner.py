@@ -20,8 +20,6 @@ while(True):
         if(int(user) == 7):
             max_debit()
         if(int(user) == 8):
-            registro()
-        if(int(user) == 9):
             print()
         if(int(user) <=0 | int(user) > 10):
             break

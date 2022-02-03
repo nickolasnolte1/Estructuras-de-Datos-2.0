@@ -1,13 +1,13 @@
 import unittest
-import Tarea1
+import Practica2
 
 
 class TestStringMethods(unittest.TestCase):
 
 
-    def test_sum(self):
-        assert Tarea1.sum(20) == 210
-        self.assertEqual( Tarea1.sum(20), 210)
+    def agregar_debitos(self):
+        assert Practica2.sum(50) == 300
+        self.assertEqual( Practica2.sum(20), 210)
         
 if __name__ == '__main__':
     unittest.main()
