@@ -25,12 +25,3 @@ while(True):
             break
     else:
         break
-
-def main():
-  saldo()
-
-  
-  
-
-if __name__ == '__main__':
-    cProfile.run('main()')
