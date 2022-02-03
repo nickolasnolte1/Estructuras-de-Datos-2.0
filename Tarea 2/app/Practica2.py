@@ -5,8 +5,12 @@ credits_record = 0
 TotalDebitos = 0
 totalCreditos = 0
 borrar = 0
+promedio = 0 
+sumdebits = 0
+sumcredits = 0
 debitos = []
 creditos = []
+
 
 #Menú para el usuario
 def menu():
@@ -39,8 +43,7 @@ def agregar_debitos():
                     print('\n¡Por favor ingrese más datos, debe ingresar por lo menos 10 débitos para poder continuar!')
                 else:
                     break
-        else:  
-            print("Por favor ingrese una opción que se encuentre en el menú")
+
 
 def agregar_creditos():
     global credits_record
