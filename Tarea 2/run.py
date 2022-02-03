@@ -2,12 +2,12 @@ from Practica2 import *
 
 while(True):
     menu()
-    user = input("\n--> ")
+    user = input("\n> ")
     try:
         if(int(user) ==1):
-            addDebitos()
+            agregar_debitos()
         if(int(user) == 2):
-            addcreditos()
+            agregar_creditos()
         if(int(user) == 3):
             totalDebitosf()
         if(int(user) == 4):
@@ -20,13 +20,12 @@ while(True):
             debitoGrande()
         if(int(user) == 8):
             registro()
-   
         if(int(user) == 9):
             prnt()
         if(int(user) ==10):
             eliminar()
             print('Los nuevos valores son: \b')
-            prnt()
+            print()
             totalDebitosf()
             totalCreditosf()
             saldo()
