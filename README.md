@@ -3,7 +3,7 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
 
 # Tabla de contenidos
 1. [Tarea 1 🧮](#tarea-1-)
-2. [Tarea 🧮](#Tarea-2-)
+2. [Tarea 2 🧮](#Tarea-2-)
 
 # Tarea 1 🧮
 - Algoritmo para encontrar la suma de lo primeros n números naturales
