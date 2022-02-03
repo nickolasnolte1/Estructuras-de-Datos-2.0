@@ -1,4 +1,5 @@
 from Practica2 import *
+import cProfile
 
 while(True):
     menu()
@@ -11,13 +12,13 @@ while(True):
         if(int(user) == 3):
             total_debitos()
         if(int(user) == 4):
-            totalCreditosf()
+            total_creditos()
         if(int(user) == 5):
             saldo()
         if(int(user) == 6):
-            promedioDebitos()
+            promedio_debitos()
         if(int(user) == 7):
-            debitoGrande()
+            max_debit()
         if(int(user) == 8):
             registro()
         if(int(user) == 9):
@@ -26,3 +27,12 @@ while(True):
             break
     else:
         break
+
+def main():
+  saldo()
+
+  
+  
+
+if __name__ == '__main__':
+    cProfile.run('main()')

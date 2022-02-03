@@ -70,7 +70,7 @@ def total_debitos():
     print("El total de debitos es: ",TotalDebitos)
     return(TotalDebitos)
 
-def totalCreditosf():
+def total_creditos():
     global creditos
     global totalCreditos
     totalCreditos = 0
@@ -79,7 +79,7 @@ def totalCreditosf():
     print("El total de creditos es: ",totalCreditos)
     return(totalCreditos)
 
-def promedioDebitos():
+def promedio_debitos():
     promedio = 0
     global debitos
     if(total_debitos() > 0):
@@ -88,10 +88,10 @@ def promedioDebitos():
     return(promedio)
 
 def saldo():
-    print("El saldo actual es: ",totalCreditosf() - total_debitos())
+    print("El saldo actual es: ",total_creditos() - total_debitos())
     return(saldo)
 
-def debitoGrande():
+def max_debit():
     global debitos
     gg = 0
     for i in range(0,len(debitos)):
