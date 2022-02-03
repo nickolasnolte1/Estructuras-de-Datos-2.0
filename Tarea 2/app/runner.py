@@ -19,8 +19,8 @@ while(True):
             promedio_debitos()
         if(int(user) == 7):
             max_debit()
-        if(int(user) == 8):
-            print()
+        if(int(user) == 9):
+            show()
         if(int(user) <=0 | int(user) > 10):
             break
     else:

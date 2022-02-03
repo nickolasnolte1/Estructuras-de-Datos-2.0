@@ -84,13 +84,13 @@ def total_creditos():
 def promedio_debitos():
     promedio = 0
     global debitos
-    if(total_debitos() > 0):
-        promedio = total_debitos()/len(debitos)
+    if(TotalDebitos > 0):
+        promedio = TotalDebitos/len(debitos)
     print("El promedio de debitos es: ",promedio)
     return(promedio)
 
 def saldo():
-    print("El saldo actual es: ",total_creditos() - total_debitos())
+    print("El saldo actual es: ",totalCreditos-TotalDebitos)
     return(saldo)
 
 def max_debit():
@@ -103,7 +103,7 @@ def max_debit():
     return(max1)
 
 
-def prnt():
+def show():
     global debitos
     global creditos
     print('Debitos: \b')
