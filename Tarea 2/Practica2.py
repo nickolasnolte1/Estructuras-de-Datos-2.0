@@ -46,7 +46,7 @@ def agregar_debitos():
 def agregar_creditos():
     global credits_record
     global creditos
-    print('Presione 0 para terminar de ingresar datos')
+    print('Presione 0 cuando haya terminado de ingresar los datos')
     while True:
         if True:
             numcredits = int(input("Ingrese el monto del crédito Q: "))
