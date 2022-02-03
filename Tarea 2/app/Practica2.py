@@ -30,13 +30,13 @@ def agregar_debitos():
     print('Presione 0 para terminar de ingresar datos')
     while True:
         if True:
-            numdebits = int(input("Ingrese el monto del débito Q: "))
+            numdebits = int(input("\nIngrese el monto del débito Q: "))
             if numdebits > 0:
                 debits_record += 1
                 debitos += [numdebits]
             else:
                 if len(debitos) < 10:
-                    print('Por favor ingrese más datos, debe ingresar por lo menos 10 débitos para poder continuar')
+                    print('\n¡Por favor ingrese más datos, debe ingresar por lo menos 10 débitos para poder continuar!')
                 else:
                     break
         else:  
@@ -48,13 +48,13 @@ def agregar_creditos():
     print('Presione 0 cuando haya terminado de ingresar los datos')
     while True:
         if True:
-            numcredits = int(input("Ingrese el monto del crédito Q: "))
+            numcredits = int(input("\nIngrese el monto del crédito Q: "))
             if numcredits > 0:
                 credits_record += 1
                 creditos += [numcredits]
             else:
                 if len(creditos) < 5:
-                    print('Por favor ingrese más datos, debe ingresar por lo menos 5 créditos para poder continuar')
+                    print('\n¡Por favor ingrese más datos, debe ingresar por lo menos 5 créditos para poder continuar!')
                 else:
                     break
         else:  
