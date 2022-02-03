@@ -21,7 +21,6 @@ def menu():
     print("|   8. Ver el  registro de operaciones                       |")
     print("|   9. Imrpimir arreglos de créditos y débitos               |")
     print("|   10. Eliminar creditos                                    |")
-    print("|   Cualquier otra tecla para cancelar                       |")
     print("--------------------------------------------------------------")
 
 def agregar_debitos():
@@ -93,17 +92,13 @@ def saldo():
 
 def max_debit():
     global debitos
-    gg = 0
+    max1 = 0
     for i in range(0,len(debitos)):
-        if(debitos[i]>gg):
-            gg = debitos[i]
-    print("El debito mas grande es: ",gg)
-    return(gg)
+        if(debitos[i]>max1):
+            max1 = debitos[i]
+    print("El debito mas grande es: ",max1)
+    return(max1)
 
-def registro():
-    print("Se ha agregado ", debits_record, ' veces debitos')
-    print("Se ha agregado ", credits_record, ' veces creditos')
-    print("Se ha eliminado ", borrar, ' veces creditos')
 
 def prnt():
     global debitos
