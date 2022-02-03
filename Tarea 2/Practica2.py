@@ -1,5 +1,5 @@
-# Declarar variables y arreglos
 
+# Declarar variables y arreglos
 debits_record = 0
 credits_record = 0
 totalDebitos = 0
@@ -60,7 +60,7 @@ def agregar_creditos():
         else:  
             print("Por favor ingrese una opción que se encuentre en el menú")
 
-def totalDebitosf():
+def total_debitos():
     global totalDebitos
     global debitos
     totalDebitos = 0
@@ -81,16 +81,14 @@ def totalCreditosf():
 def promedioDebitos():
     promedio = 0
     global debitos
-    if(totalDebitosf() > 0):
-        promedio = totalDebitosf()/len(debitos)
+    if(total_debitos() > 0):
+        promedio = total_debitos()/len(debitos)
     print("El promedio de debitos es: ",promedio)
     return(promedio)
 
 def saldo():
-    print("El saldo actual es: ",totalCreditosf() - totalDebitosf())
+    print("El saldo actual es: ",totalCreditosf() - total_debitos())
     return(saldo)
-
-
 
 def debitoGrande():
     global debitos
@@ -113,15 +111,3 @@ def prnt():
     print(debitos)
     print('Creditos: \b')
     print(creditos)
-
-def eliminar():
-    prnt()
-    global creditos 
-    mod = int(input('Monto del credito que desea eliminar: '))
-    global BorrarRegistro
-    for i in range(0,len(creditos)):
-        if(creditos[i] == mod):
-            print('')
-            BorrarRegistro += 1
-            creditos = creditos[0:i] + creditos[i + 1:] 
-            return(creditos)

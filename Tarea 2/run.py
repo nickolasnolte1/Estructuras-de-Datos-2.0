@@ -3,13 +3,13 @@ from Practica2 import *
 while(True):
     menu()
     user = input("\n> ")
-    try:
+    if True:
         if(int(user) ==1):
             agregar_debitos()
         if(int(user) == 2):
             agregar_creditos()
         if(int(user) == 3):
-            totalDebitosf()
+            total_debitos()
         if(int(user) == 4):
             totalCreditosf()
         if(int(user) == 5):
@@ -21,18 +21,8 @@ while(True):
         if(int(user) == 8):
             registro()
         if(int(user) == 9):
-            prnt()
-        if(int(user) ==10):
-            eliminar()
-            print('Los nuevos valores son: \b')
             print()
-            totalDebitosf()
-            totalCreditosf()
-            saldo()
-            promedioDebitos()
-            debitoGrande()
-            registro()
         if(int(user) <=0 | int(user) > 10):
             break
-    except ValueError:  
+    else:
         break
