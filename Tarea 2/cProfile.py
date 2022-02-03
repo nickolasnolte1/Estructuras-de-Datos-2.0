@@ -1,8 +1,10 @@
 import cProfile
-from runner import *
+from programa import Practica2
 
 def main():
   max_debit()
+  saldo()
+  show()
   
 
 if __name__ == '__main__':
