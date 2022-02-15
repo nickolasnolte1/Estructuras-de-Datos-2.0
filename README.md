@@ -4,6 +4,7 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
 # Tabla de contenidos
 1. [Tarea 1 🧮](#tarea-1-)
 2. [Tarea 2 🧮](#Tarea-2-)
+3. [Tarea 3 🧮](#Tarea-3-)
 
 # Tarea 1 🧮
 - Algoritmo para encontrar la suma de lo primeros n números naturales
@@ -22,3 +23,10 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
   - Imprimir los elementos de los arreglos
   - Eliminar créditos. 
 - El programa fue desarrollado en Python. 
+
+
+# Tarea 3 🧮
+Programa hecho en python para calcular el área de las siguientes figuras geométricas: 
+- Círculo
+- Triángulo
+- Rectángulo
