@@ -5,6 +5,9 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
 1. [Tarea 1 🧮](#tarea-1-)
 2. [Tarea 2 🧮](#Tarea-2-)
 3. [Tarea 3 🧮](#Tarea-3-)
+3. [Tarea 4 🧮](#Tarea-4-)
+3. [Tarea 5 🧮](#Tarea-5-)
+
 
 # Tarea 1 🧮
 - Algoritmo para encontrar la suma de lo primeros n números naturales
@@ -30,3 +33,4 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 - Círculo
 - Triángulo
 - Rectángulo
+
