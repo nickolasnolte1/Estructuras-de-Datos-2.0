@@ -34,6 +34,6 @@ async def create_item(item: Item):
 async def read_user(user_id: str):
     return {"user_id": user_id}
 
-@app.post("/items/postman")
+@app.get("/items/postman")
 def home():
-    return ("Hola chiquibaby")
+    return ("Hola")
