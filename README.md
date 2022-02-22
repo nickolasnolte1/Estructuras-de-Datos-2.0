@@ -1,8 +1,8 @@
 # Estructuras de Datos 2.0 UFM
 Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de Estructuras de Datos durante lo largo del semestre.
 
-## Nickolas Nolte 
-  ## Carnet: 20200561
+## Nickolas Nolte, Carnet: 20200561
+
 
 # Tabla de contenidos
 1. [Tarea 1](#tarea-1)
@@ -48,7 +48,9 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 # Tarea 4
 
 # Tarea 5
-FastAPI
+- Laboratorio de FastAPI
+- Puerto: 8000
+- Desarrollado en Pyhton
 
 
 Para correr el Api, utilizar el siguiente comando: 
