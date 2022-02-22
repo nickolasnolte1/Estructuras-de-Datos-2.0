@@ -1,5 +1,8 @@
-# Estructuras de Datos
+# Estructuras de Datos 2.0 UFM
 Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de Estructuras de Datos durante lo largo del semestre.
+
+## Nickolas Nolte 
+## Carnet: 20200561
 
 # Tabla de contenidos
 1. [Tarea 1](#tarea-1)
@@ -12,6 +15,8 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
 # Tarea 1
 - Algoritmo para encontrar la suma de lo primeros n números naturales
 - Se utilizó Python
+- Corre en la terminal
+- Profiler: cProfile
 
 # Tarea 2
 - Programa creado que permite llevar el control de débitos y créditos varios, utilizando uno o más arrays unidimensionales
@@ -25,7 +30,9 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
   - Mostrar el monto de débitos más grande
   - Imprimir los elementos de los arreglos
   - Eliminar créditos. 
-- El programa fue desarrollado en Python. 
+- El programa fue desarrollado en Python.
+- Corre en la terminal
+- Profiler: cProfile
 
 
 # Tarea 3
@@ -33,6 +40,9 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 - Círculo
 - Triángulo
 - Rectángulo
+
+- Corre en la terminal
+- Profiler: cProfile
 
 
 # Tarea 4
