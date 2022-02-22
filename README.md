@@ -55,4 +55,3 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 
 - Para correr el Api, utilizar el siguiente comando: 
 `uvicorn main:app --reload `
-
