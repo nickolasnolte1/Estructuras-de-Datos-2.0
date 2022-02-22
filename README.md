@@ -38,4 +38,9 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 # Tarea 4 🧮
 
 # Tarea 5 🧮
+## FastAPI
+
+
+Para correr el Api, utilizar el siguiente comando: 
+`uvicorn main:app --reload `
 
