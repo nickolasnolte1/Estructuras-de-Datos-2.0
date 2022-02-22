@@ -34,3 +34,8 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 - Triángulo
 - Rectángulo
 
+
+# Tarea 4 🧮
+
+# Tarea 5 🧮
+
