@@ -2,7 +2,7 @@
 Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de Estructuras de Datos durante lo largo del semestre.
 
 ## Nickolas Nolte 
-## Carnet: 20200561
+  ## Carnet: 20200561
 
 # Tabla de contenidos
 1. [Tarea 1](#tarea-1)
