@@ -8,8 +8,9 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
 1. [Tarea 1](#tarea-1)
 2. [Tarea 2](#Tarea-2)
 3. [Tarea 3](#Tarea-3)
-3. [Tarea 4](#Tarea-4)
-3. [Tarea 5](#Tarea-5)
+4. [Tarea 4](#Tarea-4)
+5. [Tarea 5](#Tarea-5)
+6. [Proyecto](#Proyecto)
 
 
 # Tarea 1
@@ -57,5 +58,11 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 `uvicorn main:app --reload `
 
 
-# Proyecto 1era. entrega
+# Proyecto
 `https://github.com/nickolasnolte1/Proyecto-Estructura-de-Datos-2.0.git`
+
+- Api that functions like a simple social media app, where people can post their thougts or a discussion based on categories.
+- Runs in local host (port 8000), developed in Flask.
+- Implemented data structures learned in class.
+- Unit testing: Python unittest library
+- Profiling: Flask-profiler
