@@ -59,7 +59,7 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 
 
 # Proyecto
-`https://github.com/nickolasnolte1/Proyecto-Estructura-de-Datos-2.0.git`
+https://github.com/nickolasnolte1/Proyecto-Estructura-de-Datos-2.0.git
 
 - Api that functions like a simple social media app, where people can post their thougts or a discussion based on categories.
 - Runs in local host (port 8000), developed in Flask.
