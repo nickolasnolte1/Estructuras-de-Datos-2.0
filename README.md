@@ -64,5 +64,5 @@ Programa hecho en python para calcular el área de las siguientes figuras geomé
 - Api that functions like a simple social media app, where people can post their thougts or a discussion based on categories.
 - Runs in local host (port 8000), developed in Flask.
 - Implemented data structures learned in class.
-- Unit testing: Python unittest library
+- Unit testing: Python _unittest_ library
 - Profiling: Flask-profiler
