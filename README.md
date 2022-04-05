@@ -11,6 +11,7 @@ Este es un repositorio donde estaré subiendo tareas/laboratorios de la clase de
 4. [Tarea 4](#Tarea-4)
 5. [Tarea 5](#Tarea-5)
 6. [Proyecto](#Proyecto)
+7. [Tarea 7](#tarea-7) 
 
 
 # Tarea 1
@@ -66,3 +67,8 @@ https://github.com/nickolasnolte1/Proyecto-Estructura-de-Datos-2.0.git
 - Implemented data structures learned in class.
 - Unit testing: Python _unittest_ library
 - Profiling: Flask-profiler
+
+# Tarea 7 
+- Se programó un Red-Black Tree funcional, con ayuda de videos y tutoriales. 
+- Código hecho en Python 
+<img width="498" alt="image" src="https://user-images.githubusercontent.com/61555652/161655670-cf6a9f3e-3f80-42f6-9df9-b772e7eb0877.png">
